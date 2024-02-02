@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+/* skrift */
+
+a {
+  text-decoration: none;
+  text-align: left;
+}
+
+@font-face {
+  font-family: lora;
+  src: url(/fonte/lora-italic-variablefont_wght-webfont.woff2);
+}
+@font-face {
+  font-family: mon;
+  src: url(/fonte/montserrat-italic-variablefont_wght-webfont.woff2);
+}
+@font-face {
+  font-family: loras;
+  src: url(/fonte/lora-variablefont_wght-webfont.woff2);
+}
+@font-face {
+  font-family: monv;
+  src: url(/fonte/montserrat-variablefont_wght-webfont.woff2);
+}
+
+p {
+  font-family: loras;
+  line-height: 2;
+}
+ul {
+  font-family: loras;
+}
+
+li {
+  font-family: loras;
+}
+
+h1 {
+  font-family: loras;
+  font-size: large;
+}
+
+.tekst_index {
+  font-family: lora;
+  font-variant: small-caps;
+}
+
+.tekst_projekter {
+  font-family: Lora;
+  font-size: xx-large;
+  font-variant: small-caps;
+}
+.tt {
+  font-family: lora;
+  font-size: medium;
+  font-variant: small-caps;
+}
+figcaption {
+  font-family: loras;
+  font-size: medium;
+}
+a {
+  font-family: lora;
+  font-size: medium;
+  font-variant: small-caps;
+}
+
+/* footer  */
+footer {
+  background-color: #d3dce7;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  text-align: left;
+  color: #a44a3f;
+  font-family: lora;
+  font-variant: small-caps;
+  font-size: medium;
+}
